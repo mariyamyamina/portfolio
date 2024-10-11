@@ -1,0 +1,89 @@
+.bg-contact {
+    background-color: rgb(0, 0, 44);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    height: auto; /* Remove fixed height for better responsiveness */
+  }
+  
+  #contact {
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+    width: 700px;
+    margin-bottom: 30px;
+  }
+  
+  #contact h2 {
+    color: white;
+  }
+  
+  #contact p {
+    color: white;
+  }
+  
+  #contact label {
+    text-align: left;
+    display: flex;
+    align-items: start;
+    margin-left: 20px;
+    color: white;
+  }
+  
+  .input {
+    margin: 20px;
+  }
+  
+  #contact input,
+  #contact textarea {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  #contact input {
+    height: 30px;
+  }
+  
+  #contact textarea {
+    height: 100px;
+  }
+  
+  #contact button {
+    background-color: rgb(172, 0, 172);
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+  }
+  
+  #contact button:hover {
+    background-color: rgb(96, 0, 96);
+  }
+  
+  /* Mobile View */
+  @media screen and (max-width: 768px) {
+    #contact {
+      width: 100%; /* Adjust width for smaller screens */
+      margin-bottom: 20px;
+      padding: 15px;
+    }
+  
+    #contact input,
+    #contact textarea {
+      width: 90%; /* Make inputs and textareas full width */
+      margin: 10px 0;
+    }
+  
+    #contact button {
+      width: 95%; /* Button takes full width */
+    }
+  
+    .bg-contact {
+      padding: 10px; /* Add padding for better layout */
+    }
+  }
+  

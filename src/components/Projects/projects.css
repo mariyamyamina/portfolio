@@ -1,0 +1,64 @@
+.project-container {
+  padding: 10px;
+  margin: 0 auto; /* Center the container */
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 1200px; /* Limit the width for larger screens */
+}
+
+.project-page {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 41);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  flex-direction: column;
+  align-items: center; /* Ensure the content is centered */
+}
+
+.project-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent wrapping of content */
+  padding-bottom: 10px;
+}
+
+.project-box::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+.project-img {
+  display: inline-block; /* Keep images inline */
+  flex-shrink: 0;
+}
+
+.project-img img {
+  width: 360px;
+  height: 200px;
+}
+
+.project-img:hover {
+  box-shadow: 4px 4px 20px 2px gray;
+}
+
+/* Mobile View */
+@media screen and (max-width: 768px) {
+  .project-box {
+    overflow-x: scroll; /* Enable horizontal scroll on mobile */
+    gap: 10px;
+  }
+
+  .project-img img {
+    width: 90%; /* Adjust image width for smaller screens */
+    height:150px;
+  }
+
+  .project-page {
+    padding: 20px;
+  }
+}
