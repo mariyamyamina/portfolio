@@ -38,7 +38,7 @@ const About = () => {
             e-commerce platforms,Amazon clone and spotify clone, I specialize
             in creating user-friendly, responsive, and high-performance
             applications. I have also worked on projects like a tourism website(React),
-            Authentication system(React) and a blog website during my internships.
+            Authentication system(MERN Stack) and a blog website(MERN stack) during my internships.
             <br /><br />
             Beyond development, I have a keen interest in problem-solving and optimizing web
             performance. I'm continuously learning and improving my skills
