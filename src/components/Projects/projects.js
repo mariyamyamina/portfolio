@@ -1,8 +1,8 @@
 import React from 'react';
 import project1 from './project1.png';
-import project2 from './project2.png';
-import project3 from './project3.png';
-import project4 from './project4.png';
+import blogs from './blogs.png';
+import amazon from './amazon.png';
+import spotify from './spotify.png';
 import project5 from './project5.png';
 import project6 from './project6.png'; 
 import './projects.css'
@@ -20,33 +20,33 @@ const Projects = () => {
             </a>
           </div>
           <div className="project-img">
-            <a href="https://mariyamyamina.github.io/todo-list/">
-              <img src={project2} alt="Todo List" />
-              <p>E-Commerce website</p>
+            <a href="">
+              <img src={blogs} alt="blogs" />
+              <p>Blogs website</p>
             </a>
           </div>
           <div className="project-img">
-            <a href="https://mariyamyamina.github.io/connect4-game/">
-              <img src={project3} alt="Connect 4 Game" />
-              <p>E-Commerce website</p>
+            <a href="">
+              <img src={amazon} alt="amazon clone" />
+              <p>Amazon clone app</p>
             </a>
           </div>
           <div className="project-img">
-            <a href="https://mariyamyamina.github.io/calculating-device/">
-              <img src={project4} alt="Calculating Device" />
-              <p>E-Commerce website</p>
+            <a href="">
+              <img src={spotify} alt="spotify clone" />
+              <p>Spotify</p>
             </a>
           </div>
           <div className="project-img">
             <a href="https://github.com/mariyamyamina/internpe">
               <img src={project5} alt="Internpe Project" />
-              <p>E-Commerce website</p>
+              <p>Food delivery website</p>
             </a>
           </div>
           <div className="project-img">
             <a href="https://mariyamyamina.github.io/Bibliolater/">
               <img src={project6} alt="Bibliolater" />
-              <p>E-Commerce website</p>
+              <p>Book Management App</p>
             </a>
           </div>
         </div>

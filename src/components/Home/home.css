@@ -70,7 +70,8 @@
   justify-content: left;
   gap: 20px;
   height: 40px;
-  flex-wrap: wrap; /* Allows buttons to wrap on smaller screens */
+  flex-wrap: wrap;
+   /* Allows buttons to wrap on smaller screens */
 }
 
 button {
@@ -115,6 +116,7 @@ button a:hover {
   .btn {
     justify-content: center;
     gap: 10px;
+    margin: 5rem;
   }
 
   .yamimg {

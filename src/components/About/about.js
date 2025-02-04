@@ -15,8 +15,8 @@ const About = () => {
         <img
           src={aboutImage}
           alt="About Yamina"
-          height="280px"
-          width="280px"
+          height="320px"
+          width="320px"
           className="abtimg"
         />
       </div>

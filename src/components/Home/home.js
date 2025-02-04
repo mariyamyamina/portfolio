@@ -1,18 +1,18 @@
 import React from 'react';
 import yaminaImage from './Yamina.png';
-import resume from './Resume.pdf';
+import resume from './Microsoft.pdf';
 import './home.css'
 
 const Home = () => {
+
   return (
     <div className="profile-page" id="home">
       <div className="name">
         <h1>Hello, it's me</h1>
         <h1 className="name1">MARIYAM YAMINA.M</h1>
-        <h1>And I'm a Frontend Developer</h1>
+        <h1>And I'm a Full Stack Developer | MERN Stack</h1>
         <div className="btn">
-          <button>CONTACT</button>
-          <button><a href={resume}>RESUME</a></button>
+          <button><a href={resume} target="_blank" rel="noopener noreferrer">RESUME</a></button>
         </div>
       </div>
       <div align="right" className="yaminaimg">
