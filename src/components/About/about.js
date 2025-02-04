@@ -35,22 +35,21 @@ const About = () => {
 
           <span className={showMore ? "full-text" : "hidden-text"}>
             With hands-on experience in building web applications,
-            e-commerce platforms, and finance management systems, I specialize
+            e-commerce platforms,Amazon clone and spotify clone, I specialize
             in creating user-friendly, responsive, and high-performance
-            applications. I have also worked on projects like a tourism website,
-            flight reservation system, video conferencing app (MERN stack), and
-            a blog website during my internships.
+            applications. I have also worked on projects like a tourism website(React),
+            Authentication system(React) and a blog website during my internships.
             <br /><br />
-            Beyond development, I have a keen interest in problem-solving, UI/UX design, and optimizing web
+            Beyond development, I have a keen interest in problem-solving and optimizing web
             performance. I'm continuously learning and improving my skills
             through courses, certifications, and real-world projects.
             <br /><br />
-            🚀 <strong>Tech Stack:</strong> HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB, MySQL, PHP, Java, Python
+            🚀 <strong>Tech Stack:</strong> HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB, MySQL, Java, Python and C
             <br /><br />
             📜 <strong>Certifications:</strong> Responsive Web Design
-            (FreeCodeCamp), JavaScript (Scaler), Industry 4.0 & IoT (NPTEL)
+            (FreeCodeCamp), JavaScript (Scaler), Industry 4.0 & IoT (NPTEL),Generative AI(Microsoft)
             <br /><br />
-            💡 <strong>Internships:</strong> Infosmite (Full-Stack Development), Aadhirotz
+            💡 <strong>Internships:</strong> Infosmite (Backend Development), Aadhirootz
             Technologies (Java & MySQL)
             <br /><br />
             I'm always open to new opportunities, collaborations, and innovative projects. Let's connect and build
