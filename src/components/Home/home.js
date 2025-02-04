@@ -1,5 +1,5 @@
 import React from 'react';
-import yaminaImage from './yamina.jpg';
+import yaminaImage from './Yamina.png';
 import resume from './Resume.pdf';
 import './home.css'
 

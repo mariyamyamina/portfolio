@@ -2,13 +2,16 @@ import React from 'react';
 import html from './html.jpeg';
 import css from './css.jpeg';
 import javascript from './javas.jpeg';
+import bootstrap from './bootstrap.jpeg';
+import tailwind from './tailwind.jpg';
 import react from './react.jpeg';
-import angular from './angular.jpeg';
 import node from './node.jpeg';
+import mongodb from './mongodb.jpeg';
+import mysql from './mysql.png';
 import python from './python.jpeg';
 import java from './java.jpeg';
 import c from './c.jpeg';
-import bootstrap from './bootstrap.jpeg';
+
 import './skill.css';
 
 const Skills = () => {
@@ -40,6 +43,11 @@ const Skills = () => {
         </div>
 
         <div class="alignment">
+        <img src={tailwind} alt="Description of myImage" height="70px" width="70px"/>
+        <h3>TAILWIND CSS</h3>
+        </div>
+
+        <div class="alignment">
         <img src={react} alt="Description of myImage" height="70px" width="70px"/>
         <h3>REACT</h3>
         </div>
@@ -47,14 +55,21 @@ const Skills = () => {
         </div>
          
         <div class="vertical2">
+        
+
         <div class="alignment">
-        <img src={angular} alt="Description of myImage" height="70px" width="70px"/>
-        <h3>ANGULAR</h3>
+        <img src={node} alt="Description of myImage" height="70px" width="70px"/>
+        <h3>NODE JS</h3>
         </div>
 
         <div class="alignment">
-        <img src={python} alt="Description of myImage" height="70px" width="70px"/>
-        <h3>PYTHON</h3>
+        <img src={mongodb} alt="Description of myImage" height="70px" width="70px"/>
+        <h3>MongoDB</h3>
+        </div>
+
+        <div class="alignment">
+        <img src={mysql} alt="Description of myImage" height="70px" width="70px"/>
+        <h3>MySQL</h3>
         </div>
 
         <div class="alignment">
@@ -63,13 +78,13 @@ const Skills = () => {
         </div>
 
         <div class="alignment">
-        <img src={c} alt="Description of myImage" height="70px" width="70px"/>
-        <h3>C</h3>
+        <img src={python} alt="Description of myImage" height="70px" width="70px"/>
+        <h3>PYTHON</h3>
         </div>
 
         <div class="alignment">
-        <img src={node} alt="Description of myImage" height="70px" width="70px"/>
-        <h3>NODE</h3>
+        <img src={c} alt="Description of myImage" height="70px" width="70px"/>
+        <h3>C</h3>
         </div>
         
         </div>

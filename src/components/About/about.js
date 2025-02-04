@@ -1,12 +1,10 @@
-import React, { useState } from 'react';
-import aboutImage from './Yaminaa.jpg';
-import './about.css';
+import React, { useState } from "react";
+import aboutImage from "./Yamina.png";
+import "./about.css";
 
 const About = () => {
-  // State to control visibility of more content on mobile
   const [showMore, setShowMore] = useState(false);
 
-  // Function to toggle the show more/less
   const toggleShowMore = () => {
     setShowMore(!showMore);
   };
@@ -14,30 +12,56 @@ const About = () => {
   return (
     <section className="about-me-page" id="about">
       <div className="aboutimage">
-        <img src={aboutImage} alt="About Yamina" height="280px" width="280px" className="abtimg" />
+        <img
+          src={aboutImage}
+          alt="About Yamina"
+          height="280px"
+          width="280px"
+          className="abtimg"
+        />
       </div>
       <div className="about-me">
         <h2>ABOUT ME</h2>
         <p>
-          I am a passionate and dedicated frontend developer who loves to create beautiful,
-          responsive, and user-friendly websites. 
-          {/* Shorten the text for mobile and show full content for PC */}
-          <span className={showMore ? "full-text" : "short-text"}>
-            I specialize in HTML, CSS, JavaScript, and React. I have worked on several
-            web development projects, including both frontend and backend components.
-            I am always eager to learn new technologies and improve my skills. I have a 
-            strong eye for design and pay attention to the details, which helps me create
-            engaging web experiences.My journey in frontend development has equipped 
-            me with the ability to understand design principles and collaborate closely 
-            with designers and backend developers. I am always eager to learn new technologies 
-            and keep myself updated with the latest trends in web development to build
-             high-performance, accessible, and user-friendly applications.
+          {/* Shortened text for mobile, full text for larger screens */}
+          <span className={showMore ? "about-me show-more" : "about-me"}>
+            Hello! I'm a passionate full-stack developer with expertise in
+            frontend and backend technologies. Currently pursuing my B.E. in
+            Computer Science and Engineering, I have a strong foundation in
+            HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB, and
+            MySQL.
+          </span>
+          <br /><br />
+
+          <span className={showMore ? "full-text" : "hidden-text"}>
+            With hands-on experience in building web applications,
+            e-commerce platforms, and finance management systems, I specialize
+            in creating user-friendly, responsive, and high-performance
+            applications. I have also worked on projects like a tourism website,
+            flight reservation system, video conferencing app (MERN stack), and
+            a blog website during my internships.
+            <br /><br />
+            Beyond development, I have a keen interest in problem-solving, UI/UX design, and optimizing web
+            performance. I'm continuously learning and improving my skills
+            through courses, certifications, and real-world projects.
+            <br /><br />
+            🚀 <strong>Tech Stack:</strong> HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB, MySQL, PHP, Java, Python
+            <br /><br />
+            📜 <strong>Certifications:</strong> Responsive Web Design
+            (FreeCodeCamp), JavaScript (Scaler), Industry 4.0 & IoT (NPTEL)
+            <br /><br />
+            💡 <strong>Internships:</strong> Infosmite (Full-Stack Development), Aadhirotz
+            Technologies (Java & MySQL)
+            <br /><br />
+            I'm always open to new opportunities, collaborations, and innovative projects. Let's connect and build
+            something amazing!
           </span>
         </p>
+
+        {/* Show button only on mobile screens */}
         <div className="btn">
-          {/* Show button only on mobile screens */}
           <button className="show-more-btn" onClick={toggleShowMore}>
-            {showMore ? 'Show Less' : 'Show More'}
+            {showMore ? "Show More" : "Show Less"}
           </button>
         </div>
       </div>

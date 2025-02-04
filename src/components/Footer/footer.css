@@ -1,6 +1,6 @@
 footer {
-    background-color: #00001a; /* Dark background */
-    color: white;
+    background-color:  #FFFFFF; /* Dark background */
+    color: #2C3E50;
     padding: 30px 20px;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -28,7 +28,7 @@ footer {
   }
   
   .contact-icons a {
-    color: white;
+    color: #2C3E50;
     text-decoration: none;
     transition: transform 0.2s;
   }
