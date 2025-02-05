@@ -1,129 +1,102 @@
-/* Base styles */
 .about-me-page {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 20px;
-  background-color: #FFFFFF;
+  padding: 10px 30px;
+  background-color: #ffffff;
   flex-wrap: wrap;
 }
 
 .about-me {
-  padding: 10px;
+  padding: 20px;
   margin: 10px;
-  margin-left: 50px;
-  margin-right: 70px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  color: #2C3E50;
+  color: #2c3e50;
   text-align: left;
   flex: 1;
-  max-width: 100%;
+  max-width: 65%;
+}
+
+.about-me h2 {
+  margin-bottom: 1rem;
 }
 
 .aboutimage {
   padding: 10px;
   margin: 10px;
-  margin-top: 30px;
-  margin-right: 50px;
-  margin-left: 50px;
-  padding-top: 50px;
   text-align: center;
   flex: 1;
+  max-width: 30%;
 }
 
 .abtimg {
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid rgb(172, 0, 172);
-  /*box-shadow: 10px 10px 40px 5px rgb(172, 0, 172), -10px -10px 40px 5px rgb(216, 32, 216); */
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
-.btn {
-  display: flex;
-  justify-content: left;
-  gap: 20px;
-  height: 40px;
-  flex-wrap: wrap;
+/* Hide the button by default */
+.btn-container {
+  display: none;
 }
 
-button {
-  border-radius: 10px;
-  border: none;
+/* Show More button styles */
+.show-more-btn {
+  display: none;
   background-color: rgb(172, 0, 172);
-  width: 100px;
-  cursor: pointer;
   color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 8px;
 }
 
-button:hover {
-  background-color: rgb(125, 0, 125);
-}
-
-/* Show truncated text on mobile */
-.short-text {
-  display: -webkit-box;
-  -webkit-line-clamp: 3; /* Limit to 3 lines */
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-/* Show all content */
-.full-text {
-  display: inline;
-}
-
-/* Responsive styles */
+/* Responsive Styles */
 @media (max-width: 768px) {
   .about-me-page {
     flex-direction: column;
     text-align: center;
+    padding: 10px;
   }
 
   .about-me {
-    margin: 20px;
+    max-width: 90%;
+    padding: 15px;
   }
 
+  .about-me h2 {
+    margin-bottom: 5px;
+  }
+
+  /* Hide the image on mobile */
   .aboutimage {
-    display: none; /* Hide the image on mobile */
+    display: none;
   }
 
-  .btn {
+  /* Show the button only on mobile */
+  .btn-container {
+    display: flex;
     justify-content: center;
-    gap: 10px;
+    margin-top: 10px;
   }
-
-  /* Show 'Show More' button on mobile */
+  .btn-container button{
+    width: auto;
+    height: 40px;
+    margin-top: 1rem;
+  }
   .show-more-btn {
-    display: inline-block;
+    display: block;
   }
-  .full-text{
-    display: none;
-  }
-   .show-more-btn{
-    display: inline-block;
-   }
-}
 
-/* Remove the 'Show More' button and display full content on larger screens */
-@media (min-width: 768px) {
-  .show-more-btn {
+  /* Hide full text by default */
+  .full-text {
     display: none;
   }
 
-  .short-text {
+  /* Show full text when expanded */
+  .full-text.show {
     display: inline;
-  }
-
-  .show-more .full-text{
-    display: inline;
-  }
-
-  .show-more .short-text{
-    display: none;
   }
 }

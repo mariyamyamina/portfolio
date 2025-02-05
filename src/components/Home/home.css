@@ -49,6 +49,7 @@
 .yaminaimg {
   padding: 10px;
   margin: 10px;
+  margin-top: 2rem;
   padding-top: 50px;
   text-align: center;
   flex: 1;
@@ -71,6 +72,7 @@
   gap: 20px;
   height: 40px;
   flex-wrap: wrap;
+  margin-top: 2rem;
    /* Allows buttons to wrap on smaller screens */
 }
 
@@ -114,9 +116,10 @@ button a:hover {
   }
 
   .btn {
+    display: flex;
     justify-content: center;
     gap: 10px;
-    margin: 5rem;
+    
   }
 
   .yamimg {
@@ -135,7 +138,9 @@ button a:hover {
   .name1 {
     font-size: 30px;
   }
-
+  .name h1{
+    margin-bottom: 2rem;
+  }
   h1 {
     font-size: 20px;
   }

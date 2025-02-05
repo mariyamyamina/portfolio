@@ -31,6 +31,7 @@ const NavigationMenu = () => {
         <ul className={`list ${isOpen ? 'active' : ''}`}>
           <li><a href="#home" onClick={toggleMenu}>HOME</a></li>
           <li><a href="#about" onClick={toggleMenu}>ABOUT</a></li>
+          <li><a href="#services" onClick={toggleMenu}>SERVICES</a></li>
           <li><a href="#skills" onClick={toggleMenu}>SKILLS</a></li>
           <li><a href="#project" onClick={toggleMenu}>PROJECTS</a></li>
           <li><a href="#contact-details" onClick={toggleMenu}>CONTACT</a></li>

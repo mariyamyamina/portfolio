@@ -18,36 +18,42 @@ const Projects = () => {
               <img src={project1} alt="E-commerce" />
               <p>E-Commerce website</p>
             </a>
+            <p class="para"><b>Technology used:</b>HTML and CSS</p>
           </div>
           <div className="project-img">
             <a href="https://github.com/mariyamyamina/blog-website">
               <img src={blogs} alt="blogs" />
               <p>Blogs website</p>
             </a>
+            <p><b>Technology used:</b>NodeJS,ExpressJS,MongoDB and Rest API's</p>
           </div>
           <div className="project-img">
             <a href="https://github.com/mariyamyamina/Amazon-clone">
               <img src={amazon} alt="amazon clone" />
               <p>Amazon clone app</p>
             </a>
+            <p><b>Technology used:</b>HTML,CSS and JavaScript</p>
           </div>
           <div className="project-img">
             <a href="https://github.com/mariyamyamina/spotify-clone">
               <img src={spotify} alt="spotify clone" />
-              <p>Spotify</p>
+              <p>Spotify clone</p>
             </a>
+            <p><b>Technology used:</b>HTMLand CSS</p>
           </div>
           <div className="project-img">
             <a href="https://github.com/mariyamyamina/FoodDelivery">
               <img src={project5} alt="Internpe Project" />
               <p>Food delivery website</p>
             </a>
+            <p><b>Technology used:</b>HTML,CSS and JavaScript</p>
           </div>
           <div className="project-img">
             <a href="https://github.com/mariyamyamina/Bibliolater">
               <img src={project6} alt="Bibliolater" />
               <p>Book Management App</p>
             </a>
+            <p><b>Technology used:</b>HTML,CSS and JavaScript</p>
           </div>
         </div>
       </div>

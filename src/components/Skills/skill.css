@@ -14,7 +14,10 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
+.skill-container h2{
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
 .my-skills {
     height: 520px;
     width: 1000px;

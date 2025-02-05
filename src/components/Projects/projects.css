@@ -31,11 +31,13 @@
   display: inline-block;
   flex-shrink: 0;
   width: 360px; /* Keep image width consistent */
-  height: 240px;
+  height: auto;
+  margin-bottom: 2rem;
 }
 
 .project-img p {
   text-align: center;
+  margin-bottom: 0.5rem;
 }
 
 .project-img a {
@@ -82,3 +84,12 @@
     padding-right: 10px;
   }
 }
+@media(max-width:650px){
+  .project-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+

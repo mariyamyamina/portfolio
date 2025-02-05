@@ -1,0 +1,99 @@
+.services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  
+  .services-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .service-box {
+    border: 2px solid rgb(172, 0, 172);
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-direction: row;
+  }
+  .service-box:hover{
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1),-8px -8px 10px rgba(0, 0, 0, 0.1);
+  }
+  .service-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .service-box h4{
+    margin-bottom: 1rem;
+  }
+  
+  .service-box p {
+    font-size: 1rem;
+    color: #555;
+  }
+  .services{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  /* Responsive Styles */
+  
+  /* For medium screens (tablets and below) */
+  @media (max-width: 768px) {
+    .services-container {
+      gap: 15px;
+      padding: 0 10px;
+      flex-direction: column;  /* Ensures vertical stack on tablets */
+    }
+  
+    .service-box {
+      width: 90%;
+      max-width: 350px;
+    }
+  
+    .services-container h2 {
+      font-size: 1.8rem;
+    }
+  
+    .service-box h3 {
+      font-size: 1.3rem;
+    }
+  
+    .service-box p {
+      font-size: 0.95rem;
+    }
+  }
+  
+  /* For small screens (mobiles and below) */
+  @media (max-width: 480px) {
+    .services-container {
+      gap: 10px;
+      padding: 0 5px;
+      flex-direction: column;  /* Ensures vertical stack on mobile */
+    }
+  
+    .service-box {
+      width: 80%;
+      max-width: 100%;
+      margin: 10px;
+    }
+  
+    .services-container h2 {
+      font-size: 1.6rem;
+    }
+  
+    .service-box h3 {
+      font-size: 1.2rem;
+    }
+  
+    .service-box p {
+      font-size: 0.9rem;
+    }
+  }
+  
